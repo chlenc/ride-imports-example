@@ -1,0 +1,5 @@
+{-# STDLIB_VERSION 3 #-}
+{-# SCRIPT_TYPE ACCOUNT #-}
+{-# IMPORT lib2.ride,lib1.ride,lib3.ride #-}
+let a = 5
+multiply(inc(a), dec(a)) == (5 + 1) * (5 - 1)
